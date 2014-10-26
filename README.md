@@ -22,9 +22,9 @@ The below data from the zip files are used in the following data transformative 
 -	/train/X_train.txt (training set, 7352 observations of 561 variables of features vector)
 -	/train/y_train.txt (training labels, 7352 observations of numeric activity labels)
 -	/train/subject_train.txt (each row identifies the subject who performed the activity for each window sample, range from 1-30, 7352 observations)
--	/test/X_test.txt (test set)
--	/test/y_test.txt (test labels)
--	/test/subject_test.txt (each row identifies the subject who performed the activity for each window sample, range from 1-30)
+-	/test/X_test.txt (test set, 2947 observations)
+-	/test/y_test.txt (test labels, 2947 observations)
+-	/test/subject_test.txt (each row identifies the subject who performed the activity for each window sample, range from 1-30, 2947 observations)
 
 Transformation / Work to clean up the data
 Below describes the transformative process and work to clean up the data, note that they are not in the numeric orders below (please see the source code for details):
