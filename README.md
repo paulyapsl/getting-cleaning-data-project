@@ -41,7 +41,7 @@ At this stage, the activity_labels file (which contains the activity mapping) is
 2) Extracts only the measurements on the mean and standard deviation for each measurement. 
 
 -	From the earlier combine_data2 dataset, the column headers are extracted and defined as the combine_data_colnames object
--	To extract variables (columns) that contain mean and std that will also include essential information such as activity, activity_id and subject, the grepl function is used.  The grepl function will return TRUE if it satisfies the condition in the argument, and they are returned to a newly defined combine_data_meanstd object. Note that the “meanFreq” variable has been excluded as it is strictly neither a mean nor a frequency per say.
+-	To extract variables (columns) that contain mean and std that will also include essential information such as activity, activity_id and subject, the grepl function is used.  The grepl function will return TRUE if it satisfies the condition in the argument, and they are returned to a newly defined combine_data_meanstd object. Note that the “meanFreq” variable has been excluded as it is not strictly a mean per say.
 -	The relevant columns containing the desired “mean” and “std” are extracted by defining combine_data_me=TRUE into a new object extract_meanstd
 
 3) Uses descriptive activity names to name the activities in the data set
