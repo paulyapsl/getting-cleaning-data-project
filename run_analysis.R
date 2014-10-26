@@ -93,3 +93,4 @@ library(reshape2) #activate the reshape2 package
 melt_data<-melt(extract_meanstd,id=c("subject_id","activity","activity_id")) #melt the extract_meanstd data so as to dcast the data later to desired structure
 cast_data<-dcast(melt_data,subject_id+activity+activity_id~variable,mean) #re-casts the melt_data with the variables now recast into the variables columns, displaying subject_id+activity+activity_id in first few columns.
 write.table(cast_data,file="cast_data.txt",row.name=FALSE) #create the data set saved as "cast_data.csv" to the selected directory
+ 
