@@ -14,7 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Source: Human Activity Recognition Using Smartphones Dataset, Version 1.0, Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto (extracted from the Readme.txt of the above original source data).
 
-Data
+Data:
 The below data from the zip files are used in the following data transformative process:
 -	activity_labels.txt (numeric labels of 1-6 to the six activities) 
 -	features.txt (list of 561 features vector (with its numeric label), with time and frequency domain available)
