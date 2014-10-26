@@ -67,7 +67,9 @@ The below text files from the zip files are used in the following data transform
 (to understand the steps in details, please see the README file and run_analysis.R source code)
 
 Output data (cast_data.txt)
-Below describes the variables of the output data, cast_data.txt. The cast_data.txt has 180 observations with 69 variables. The variables have been renamed to make it more descriptive. Other than the subject_id, activity and activity_id, the rest are the average of each variable for each activity and each subject.
+Below describes the variables of the output data, cast_data.txt. The cast_data.txt has 180 observations with 69 variables. 
+The variables have been renamed to make it more descriptive. 
+Other than the subject_id, activity and activity_id, the rest are the average of each variable for each activity and each subject.
 -	subject_id (the subject who performed the activity for each window sample, range from 1-30)
 -	activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 -	activity_id (corresponding numeric mapping of activity, see activity_labels)
